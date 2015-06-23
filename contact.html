@@ -18,23 +18,53 @@
 </head>
 <body>
 	<div class="header">
+		<input id="hamburger" type="checkbox" name="menu">
+        <label for="hamburger"><span></span><span></span><span></span></label>
+        <section class="wrapper">
+        <div id="sidebar-header">
+          <h3>NEO DOLCE</h3>
+        </div>
+        <div class="side-nav"> 
+          <ul> 
+            <li> 
+              <a href="index.html">home</a>
+            </li>
+            <li>
+              <a href="#">HAIR</a>
+            </li>
+            <li>
+              <a href="#">Skin</a>
+            </li>
+            <li>
+              <a href="#">Nails</a>
+            </li>
+            <li>
+              <a href="#">Stylists</a>
+            </li>
+            <li> 
+              <a href="location.html">Location</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+	
 		<div class="logo">
 			<!--<img src="assets/images/logo.png">logo -->
 
-			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="174" height="83" viewBox="0 0 174 83">
-  <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAABTCAMAAAAx3swbAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAY1BMVEUAAAABAQABAQABAQABAQABAQABAQABAQABAQABAQABAQABAQABAQABAQABAQABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAADgLWCHAAAAH3RSTlMAMEAQIGCPv+/Pn3B/369QYH9QEECPv59wr+/P3zAgg2FwEAAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAYrSURBVGje7ZrZgqMqEIaNxmgWE41b4nZ4/6c8oLJTQPeQ6b6YuknUwvosfhbBKPpVdoiJJTaXY7zZwetWcWws7GH2+yfpKcv/o3a+XCH3G/WJrfeLst3NXNhtmY31rPsXp6MVN7dWwudwjxewiCGDPOL9J3AT6y0yTROC++Pv48aFo9gNxrXK4SO4HuXPR7CETQ6fwNVUm2FTm11+ACM+volbZE47aXdMMjH0+cY63GN6ySFeCdciByvuLfqG3YW4Wq+VFmZeuT5hOQTHFZRwMWUp5RnO+cMo8gPlEBo3ZSELYIBKePrPEC4oh8C4R5a7DBbglWEx5auNG5JDYFzWzC5+VUDlq/VF17+Bm7qyo+aX9oOsLzLo+nO4NNo5cTgy/aZyxEeuPsgHcVlyXdPWKKFYZzliHNvlEBSXjlwXtyt7sljGjU5WOYTEPdBIRw/nQno0jpsw+ZrkEBL35J9cIb2JjBtZ5RASl+bl4eVN1ZsquFY5BMQ90ijfqAsR1yaHgLi0eu9+7rTSCxXXJoeAuBcoBmBiw5RwLXIIiHuWQrqNhn5ouFwOZ6BMANw/MRlXkIOC8DtxuRyUAdKKm90cJtV7WRF71ttR03Zd/1z/Vcylfr27d8mdq6o04zJlKXL4s1dLKf3d0GFDw8rYo7Gq3qjD8BWiHs9hait8pabOXdcCuAdzjJC43ZrAHs1R1G7Q8zAKuAvq15PkZ3MGxSAyHD6JG9VTj8F2ATSo5Lj9tP2+Kg9csxzC4+LMRiVa9pOYneEOve4M4xrl8AFcjMflik+yA1QJzmizBsQ1yuHHcMdmtRrGNckhYEdGcccOS/a5/a8xIsPtxu23qWoPMRjlEHCY2AlI64qmcUtbj0XMcEvSZxDHwUe7Ui3T8yFx1/pth3e09mA4v/OboFdorXaMOg5lvZ+kYrBoV5RDkYTHXdtO91oPljc5IMwYd7uApdGSP9Mz4k0NWXEP7MX4FBxXsbppFv3smmXdAFxhwScOjUtrzvnWHsmZ0ieQBqddDh+Ynqee/hREn54LdpTl8HMvPw+aNjGiPrWX5RAQN9lL5a4VJ7kytFdLxSQ5hGxqVLx+aqC1/HDgSnIIiUvVcP6Kcy5FNL3niXIIiUvV4LUuAi06GUyQQ9B+l8qxcLuylB3cuFwO96C4dB3HXZARZHJE80s/l0MeEpdv+7jkwCYDsQ9uJG3VhcNl6c3tQxt7LNpHO3CT/CO4wncJNl5GyxaVHLhsTAmMy2s5B/UgbKyx5TQXrrgXGhKXt2Ko9IFvZvPh2omryCEUrlhtpn3LhC8niftDTlxFDsFwhT0+DJTK84eDuOdu2sK2rF7enbhepkVIpcv32/Y1VBKnF+kbEuMHAhZcSQ4BcaNH7lFM3in0wJXkEBJXbE2QKR8P+OCKcgiK67xD8QD8rbiCHALjRscMLpHftAm8F64gh9C4eMEe+O6tuBreNvxw+aJ6eFyc4aum4eLiu9HyI5bEt/v+0WaW3VKfzeJ/9s/WVSq6wvfr4zT9tC3xTf1iccNOPXixYovxHnHGFozTIDTM4lGleuClyaHD22wtWZlswWAvNCA0Q1fduAu5fddWVT+SODWIK/AacEuctL3sgm/0AqLVA+o71AFX3bjzgIaKxukRGs28BJfzGnDxQ7OSmGkCwrVoWGZENxK+jEvuLCigRMCTY0Ccs6FmRyruWww0Qw1hWfPeg0/jwu2V69i/BHCrkuXegItThvqnrY0R61bQxSB9P9wBjXK2EXpDuBHjNTW1ed8p6F9wwGaXQcvq6Wu4s9aIRzSAuIy3MaZnrrph62J6IOa0S400uO/g6nE7ujVidNzbYgPWZt281m6xBGDe20cFI4D1ZdzRikt4e1Oxhe1eEufR2LXWAxLM2KSDapfx6rgvqat9GrOPiz73rbgGaNIhewZWojdkF4+9PL0v011mafSdRH9vXFxBwuBq7XcpYLd2wWr2MOFII5WDiQWXk3t4QwUEHNXo3WsyWOuxXmRyQ1rSG0t01KWrCgR/Q6P30hh37KgZJx7ecwYWbOXVU7O0496Ktk+LFJuUvrYxzcwqZ2PECWYzsso2IxO+dhqhjgyPvo1rZAtgdQPs9Hra/9JUBO9znm1/AAAAAElFTkSuQmCC" width="174" height="83"/>
-</svg>
+<img src="assets/images/NeoDolceLogo.svg">
+
 		</div>
 		<div class="nav">
 			<ul>
-				<li class="line"><span></span></li>
+				<!--<li class="line"><span></span></li>-->
 				<li><a href="index.html">Home</a></li>
 				<li><a href="#Hair">Hair</a></li>
 				<li><a href="#Skin">Skin</a></li>
 				<li><a href="#Nails">Nails</a></li>
 
 				<li><a href="stylists.html">Stylists</a></li>
-				<li class="line"><span></span></li>
+				<li><a href="location.html">Location</a></li>
+				<!--<li class="line"><span></span></li>-->
 			</ul>
 		</div><!-- End NAV-->
 	</div><!-- End Header-->
