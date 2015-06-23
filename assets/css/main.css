@@ -84,8 +84,12 @@ Hamburger
     margin-left: 14px;
     color: #fff; }
 
+#sidebar-header h3{
+    float: left;
+}
+
 .side-nav {
-  height: 72vh;
+  height: 90vh;
   background-color: #FAFAFA; }
 
 .side-nav li a {
@@ -96,9 +100,10 @@ Hamburger
   font-size: 1rem;
   color: rgba(0, 0, 0, 0.7);
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   width: 100%;
   height: 50px;
+  line-height: 50px;
   position: relative;
   text-decoration: none;
   left: 0; }
@@ -255,6 +260,7 @@ MEDIA QUERIES
  .main-image img {
     width: 40%;
     float: right;
+    padding-left: 40px;
     }
 
  .header {
@@ -319,10 +325,8 @@ input[type="checkbox"] + label, .wrapper{
 }
 
 .divider{
-    padding-left: 20px;
-    padding-right:20px;
+
     padding-bottom:25px;
-    width:90%;
     text-align: center;
 
     }
@@ -411,7 +415,7 @@ h3{
         font-size: 2em;
     }
     .service li{
-    height: 20px;
+
     font-size: 2em;
     padding-bottom: 30px;
 }
@@ -536,7 +540,8 @@ input[type="checkbox"] + label, .wrapper{
 
 
 .main-article{
-    width: 77%;
+    width: 90%;
+    padding: 5%;
 }
 
 .nav{
@@ -553,9 +558,6 @@ input[type="checkbox"] + label, .wrapper{
     margin-left: 0px;
 }
 
-.main-image{
-
-}
 
 .section p{
 
@@ -639,8 +641,11 @@ input[type="checkbox"] + label, .wrapper{
     .main-image img{
     float: none;
     width: 70%;
-
 }
+
+    .service li{
+        font-size: 1.5em;
+
 }
 
 @media screen and (max-width: 460px){
