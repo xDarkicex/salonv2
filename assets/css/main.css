@@ -410,6 +410,12 @@ h3{
     .hours li{
         font-size: 2em;
     }
+    .service li{
+    height: 20px;
+    font-size: 2em;
+    padding-bottom: 30px;
+}
+
 
 	/*
 	==========
@@ -597,6 +603,7 @@ input[type="checkbox"] + label, .wrapper{
 .hours li {
   font-size: 1.2em;
 }
+
 
 .divider{
     padding-left: 0px;
