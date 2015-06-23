@@ -226,7 +226,6 @@ Buttons
     color: #ffffff;
     border: none;
     outline: none;
-    font-family: 'Source Sans Pro', sans-serif;
     transition: background-color .2s ease-in-out;
     transition-delay: initial;
     margin-top: -80px;
